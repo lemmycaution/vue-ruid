@@ -1,0 +1,23 @@
+{
+  "name": "vue-ruid",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:e2e": "VUE_APP_E2E=1 vue-cli-service test:e2e"
+  },
+  "dependencies": {
+    "uuid": "^3.3.2",
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-plugin-e2e-nightwatch": "^3.0.1",
+    "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "@vue/eslint-config-airbnb": "^3.0.3",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
