@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import App from './App.vue';
-import Ruid from './entry.js';
+import Ruid from './entry';
 
 Vue.use(Ruid);
 Vue.config.productionTip = false;

@@ -4,7 +4,7 @@ const ruid = {
   bind(el, bindings) {
     if (!testing) return;
 
-    const ref = bindings.expression;
+    const ref = bindings.value;
     // eslint-disable-next-line
     el.dataset.ruid = ref.replace(/\'/g, '');
   },
